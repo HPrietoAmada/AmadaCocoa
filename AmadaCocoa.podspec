@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AmadaCocoa'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AmadaCocoa.'
+  s.summary          = 'Contains Model, View, Controllers and Helpers to be utitlized by all amada components'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

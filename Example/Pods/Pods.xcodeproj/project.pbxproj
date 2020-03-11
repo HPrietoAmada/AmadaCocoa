@@ -15,6 +15,13 @@
 		8A13E0F876BEA8210BC47A68B899C0C6 /* AmadaCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 355998A664C7C42DDCE33239AB443A8B /* AmadaCocoa-dummy.m */; };
 		94E9EB3CA54C3DCC253B82E44EF2A1A8 /* Pods-AmadaCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F363E743CAA5491223C2D8BBBC4F0D3 /* Pods-AmadaCocoa_Tests-dummy.m */; };
 		A3D224FA0F0EA725533A6EF444543DF5 /* Pods-AmadaCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407EA511186193ED2374B9408DB78D95 /* Pods-AmadaCocoa_Example-dummy.m */; };
+		DE0D39ED24197DEF00166D95 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39EC24197DEF00166D95 /* NavigationController.swift */; };
+		DE0D39F424197E1700166D95 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39EF24197E1700166D95 /* UIColor+Extension.swift */; };
+		DE0D39F524197E1700166D95 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39F024197E1700166D95 /* Font+Extension.swift */; };
+		DE0D39F624197E1700166D95 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39F124197E1700166D95 /* UIView+Extensions.swift */; };
+		DE0D39F724197E1700166D95 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39F224197E1700166D95 /* UIViewController+Extension.swift */; };
+		DE0D39F824197E1700166D95 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39F324197E1700166D95 /* Date+Extensions.swift */; };
+		DE0D39FB24197E7800166D95 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39FA24197E7800166D95 /* DBManager.swift */; };
 		E18CBC3CD785C83D8306146063B7731A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B6FAFEA33D36819DF7ADC105AACDA /* ReplaceMe.swift */; };
 		F68B5639C3B5371CAA88EA5D80E217DF /* Pods-AmadaCocoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C0D151311ABB4F409A91D5A2F5D895 /* Pods-AmadaCocoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -45,26 +52,42 @@
 		30C0D151311ABB4F409A91D5A2F5D895 /* Pods-AmadaCocoa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmadaCocoa_Tests-umbrella.h"; sourceTree = "<group>"; };
 		355998A664C7C42DDCE33239AB443A8B /* AmadaCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AmadaCocoa-dummy.m"; sourceTree = "<group>"; };
 		37CF0023F8C9EDFDDDF6931E9777CAB6 /* Pods-AmadaCocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmadaCocoa_Example-umbrella.h"; sourceTree = "<group>"; };
-		3EF9DEC7FBD7BAB17B846A702CE1A4C9 /* AmadaCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AmadaCocoa.framework; path = AmadaCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF9DEC7FBD7BAB17B846A702CE1A4C9 /* AmadaCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AmadaCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		407EA511186193ED2374B9408DB78D95 /* Pods-AmadaCocoa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmadaCocoa_Example-dummy.m"; sourceTree = "<group>"; };
 		63C5FAFB7200C1D9FBDD13D56BDAE01B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66864630FBB8FF69DB664E0651510D8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		88730700301B311226726AB9E27A0A0B /* AmadaCocoa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AmadaCocoa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66864630FBB8FF69DB664E0651510D8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		88730700301B311226726AB9E27A0A0B /* AmadaCocoa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AmadaCocoa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C0D91CB90D95EA293B274A865093923 /* Pods-AmadaCocoa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmadaCocoa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F363E743CAA5491223C2D8BBBC4F0D3 /* Pods-AmadaCocoa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmadaCocoa_Tests-dummy.m"; sourceTree = "<group>"; };
 		9200B35F304C5A5703D526B01D2F0387 /* Pods-AmadaCocoa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmadaCocoa_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A5A9ECA9DAF3AE2184087A0BBB11D6 /* Pods-AmadaCocoa_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmadaCocoa_Tests-resources.sh"; sourceTree = "<group>"; };
 		93D891C85FCB20CBF79975672CB5DF4E /* Pods-AmadaCocoa_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmadaCocoa_Example-resources.sh"; sourceTree = "<group>"; };
-		946D87D9BBDC18BB4E4D2067E83F3ADF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		946D87D9BBDC18BB4E4D2067E83F3ADF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A11B29E0951DCE17F9105F767C506817 /* Pods-AmadaCocoa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmadaCocoa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A471D1C73E15F797CD141158F8AA7870 /* Pods_AmadaCocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmadaCocoa_Tests.framework; path = "Pods-AmadaCocoa_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC2CABEFBA794C5DE0C151DC60901CB8 /* Pods_AmadaCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AmadaCocoa_Example.framework; path = "Pods-AmadaCocoa_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A471D1C73E15F797CD141158F8AA7870 /* Pods_AmadaCocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmadaCocoa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2CABEFBA794C5DE0C151DC60901CB8 /* Pods_AmadaCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmadaCocoa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6C0D22935314E5A78614BB169E30 /* Pods-AmadaCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmadaCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5D76669007EE65026E4F3081A3389B2 /* AmadaCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmadaCocoa-umbrella.h"; sourceTree = "<group>"; };
 		D7497D32088C3B0D63D3864C516C6969 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0116A48208D724C2CCE00D1012BAC6 /* Pods-AmadaCocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmadaCocoa_Example.modulemap"; sourceTree = "<group>"; };
+		DE0D39EC24197DEF00166D95 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		DE0D39EF24197E1700166D95 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DE0D39F024197E1700166D95 /* Font+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		DE0D39F124197E1700166D95 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DE0D39F224197E1700166D95 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		DE0D39F324197E1700166D95 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		DE0D39FA24197E7800166D95 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		DE0D3A0724197F5000166D95 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		DE0D3A0924197F5000166D95 /* BasicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
+		DE0D3A0B24197F5000166D95 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		DE0D3A0D24197F5100166D95 /* TableCellTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellTextView.swift; sourceTree = "<group>"; };
+		DE0D3A0F24197F5100166D95 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
+		DE0D3A1124197F5100166D95 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		DE0D3A1324197F5100166D95 /* TextNavbarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextNavbarButtonItem.swift; sourceTree = "<group>"; };
+		DE0D3A1524197F5100166D95 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		DE0D3A1724197F5100166D95 /* TitleCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewHeader.swift; sourceTree = "<group>"; };
 		E142226994D1AB951A187A022E16A9F6 /* Pods-AmadaCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmadaCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E167AE9340105E4A18A2985FAE124DA4 /* AmadaCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmadaCocoa.xcconfig; sourceTree = "<group>"; };
 		EF44197D58BC3F5003A634A5DD5B7355 /* AmadaCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmadaCocoa-prefix.pch"; sourceTree = "<group>"; };
@@ -105,6 +128,10 @@
 		2F4CB0F83F5D6F987DFE06C07AFD0F94 /* AmadaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				DE0D39FC24197F2300166D95 /* View */,
+				DE0D39F924197E6200166D95 /* DBManager */,
+				DE0D39EE24197E0600166D95 /* Helpers */,
+				DE0D39EB24197DC900166D95 /* Controller */,
 				039B6FAFEA33D36819DF7ADC105AACDA /* ReplaceMe.swift */,
 				6BB118B93D3A570CDC8D6515A491A1C2 /* Pod */,
 				DD9A9F8D7524384281366329E35B487D /* Support Files */,
@@ -227,6 +254,122 @@
 			path = "Example/Pods/Target Support Files/AmadaCocoa";
 			sourceTree = "<group>";
 		};
+		DE0D39EB24197DC900166D95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D39EC24197DEF00166D95 /* NavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE0D39EE24197E0600166D95 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D39F324197E1700166D95 /* Date+Extensions.swift */,
+				DE0D39F024197E1700166D95 /* Font+Extension.swift */,
+				DE0D39EF24197E1700166D95 /* UIColor+Extension.swift */,
+				DE0D39F124197E1700166D95 /* UIView+Extensions.swift */,
+				DE0D39F224197E1700166D95 /* UIViewController+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DE0D39F924197E6200166D95 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D39FA24197E7800166D95 /* DBManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		DE0D39FC24197F2300166D95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A0824197F5000166D95 /* BasicTableViewCell */,
+				DE0D3A0E24197F5100166D95 /* Border */,
+				DE0D3A1024197F5100166D95 /* Button */,
+				DE0D3A0A24197F5000166D95 /* CheckboxView */,
+				DE0D3A0624197F5000166D95 /* HeaderTableViewCell */,
+				DE0D3A0C24197F5100166D95 /* TableCellTextView */,
+				DE0D3A1224197F5100166D95 /* TextNavbarButtonItem */,
+				DE0D3A1624197F5100166D95 /* TitleCollectionViewHeader */,
+				DE0D3A1424197F5100166D95 /* TitleView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE0D3A0624197F5000166D95 /* HeaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A0724197F5000166D95 /* HeaderTableViewCell.swift */,
+			);
+			path = HeaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		DE0D3A0824197F5000166D95 /* BasicTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A0924197F5000166D95 /* BasicTableViewCell.swift */,
+			);
+			path = BasicTableViewCell;
+			sourceTree = "<group>";
+		};
+		DE0D3A0A24197F5000166D95 /* CheckboxView */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A0B24197F5000166D95 /* CheckboxView.swift */,
+			);
+			path = CheckboxView;
+			sourceTree = "<group>";
+		};
+		DE0D3A0C24197F5100166D95 /* TableCellTextView */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A0D24197F5100166D95 /* TableCellTextView.swift */,
+			);
+			path = TableCellTextView;
+			sourceTree = "<group>";
+		};
+		DE0D3A0E24197F5100166D95 /* Border */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A0F24197F5100166D95 /* Border.swift */,
+			);
+			path = Border;
+			sourceTree = "<group>";
+		};
+		DE0D3A1024197F5100166D95 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A1124197F5100166D95 /* Button.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		DE0D3A1224197F5100166D95 /* TextNavbarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A1324197F5100166D95 /* TextNavbarButtonItem.swift */,
+			);
+			path = TextNavbarButtonItem;
+			sourceTree = "<group>";
+		};
+		DE0D3A1424197F5100166D95 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A1524197F5100166D95 /* TitleView.swift */,
+			);
+			path = TitleView;
+			sourceTree = "<group>";
+		};
+		DE0D3A1624197F5100166D95 /* TitleCollectionViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				DE0D3A1724197F5100166D95 /* TitleCollectionViewHeader.swift */,
+			);
+			path = TitleCollectionViewHeader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -317,14 +460,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					9C1DC151363B0D5FD22A59BA1428D49F = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 5F6E866C1383AE3BA9CAED63C030F542 /* Products */;
@@ -343,8 +492,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0D39F624197E1700166D95 /* UIView+Extensions.swift in Sources */,
+				DE0D39F824197E1700166D95 /* Date+Extensions.swift in Sources */,
 				8A13E0F876BEA8210BC47A68B899C0C6 /* AmadaCocoa-dummy.m in Sources */,
+				DE0D39F524197E1700166D95 /* Font+Extension.swift in Sources */,
+				DE0D39FB24197E7800166D95 /* DBManager.swift in Sources */,
+				DE0D39ED24197DEF00166D95 /* NavigationController.swift in Sources */,
+				DE0D39F724197E1700166D95 /* UIViewController+Extension.swift in Sources */,
 				E18CBC3CD785C83D8306146063B7731A /* ReplaceMe.swift in Sources */,
+				DE0D39F424197E1700166D95 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +676,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -583,6 +740,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -633,6 +791,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
