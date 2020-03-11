@@ -1,0 +1,16 @@
+PODS:
+  - AmadaCocoa (0.1.0)
+
+DEPENDENCIES:
+  - AmadaCocoa (from `../`)
+
+EXTERNAL SOURCES:
+  AmadaCocoa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AmadaCocoa: 83774f6844e05edcd1772520bad21585efc550ca
+
+PODFILE CHECKSUM: a8bbd535a0ac956a20a58b6bdae06d5532637497
+
+COCOAPODS: 1.5.2

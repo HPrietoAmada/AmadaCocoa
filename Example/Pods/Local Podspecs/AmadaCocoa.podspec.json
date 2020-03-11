@@ -1,0 +1,22 @@
+{
+  "name": "AmadaCocoa",
+  "version": "0.1.0",
+  "summary": "A short description of AmadaCocoa.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hprietoamada/AmadaCocoa",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hprietoamada": "HPrieto@amada.com"
+  },
+  "source": {
+    "git": "https://github.com/hprietoamada/AmadaCocoa.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AmadaCocoa/Classes/**/*"
+}

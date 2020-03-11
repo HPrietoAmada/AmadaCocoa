@@ -1,0 +1,6 @@
+framework module AmadaCocoa {
+  umbrella header "AmadaCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}
