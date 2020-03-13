@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AmadaCocoa.podspec'
+  s.name             = 'AmadaCocoa'
   s.version          = '0.1.0'
   s.summary          = 'Contains Model, View, Controllers and Helpers to be utitlized by all amada components'
 
