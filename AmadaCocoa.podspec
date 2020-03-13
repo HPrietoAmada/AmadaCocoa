@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'MVC Compoonents and Helper objects that will be used in all Amada iOS projects.'
+  s.description      = 'MVC Compoonents and Helper objects that will be used in all Amada iOS projects. That is pretty much it.'
 
   s.homepage         = 'https://github.com/hprietoamada/AmadaCocoa'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
