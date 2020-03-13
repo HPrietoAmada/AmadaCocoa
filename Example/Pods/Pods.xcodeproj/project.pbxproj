@@ -26,9 +26,10 @@
 		DEE0E5ED241C087000A658E1 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5E3241C087000A658E1 /* TitleView.swift */; };
 		DEE0E5EE241C087000A658E1 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5E5241C087000A658E1 /* CheckboxView.swift */; };
 		DEE0E5EF241C087000A658E1 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5E7241C087000A658E1 /* Border.swift */; };
-		DEE0E5F0241C087000A658E1 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5E9241C087000A658E1 /* HeaderTableViewCell.swift */; };
 		DEE0E5F1241C087100A658E1 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5EB241C087000A658E1 /* Button.swift */; };
 		DEE0E5F3241C0AE000A658E1 /* TableCellTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5F2241C0AE000A658E1 /* TableCellTextView.swift */; };
+		DEE0E5F5241C108C00A658E1 /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5F4241C108C00A658E1 /* TableViewHeader.swift */; };
+		DEE0E5F8241C10E800A658E1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5F7241C10E800A658E1 /* TableViewCell.swift */; };
 		E18CBC3CD785C83D8306146063B7731A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B6FAFEA33D36819DF7ADC105AACDA /* ReplaceMe.swift */; };
 		F68B5639C3B5371CAA88EA5D80E217DF /* Pods-AmadaCocoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C0D151311ABB4F409A91D5A2F5D895 /* Pods-AmadaCocoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -90,9 +91,10 @@
 		DEE0E5E3241C087000A658E1 /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		DEE0E5E5241C087000A658E1 /* CheckboxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 		DEE0E5E7241C087000A658E1 /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
-		DEE0E5E9241C087000A658E1 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		DEE0E5EB241C087000A658E1 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		DEE0E5F2241C0AE000A658E1 /* TableCellTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellTextView.swift; sourceTree = "<group>"; };
+		DEE0E5F4241C108C00A658E1 /* TableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		DEE0E5F7241C10E800A658E1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E142226994D1AB951A187A022E16A9F6 /* Pods-AmadaCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmadaCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E167AE9340105E4A18A2985FAE124DA4 /* AmadaCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmadaCocoa.xcconfig; sourceTree = "<group>"; };
 		EF44197D58BC3F5003A634A5DD5B7355 /* AmadaCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmadaCocoa-prefix.pch"; sourceTree = "<group>"; };
@@ -290,11 +292,12 @@
 		DE0D39FC24197F2300166D95 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DEE0E5F6241C10DF00A658E1 /* TableViewCell */,
 				DEE0E5DF241C087000A658E1 /* BasicTableViewCell */,
 				DEE0E5E6241C087000A658E1 /* Border */,
 				DEE0E5EA241C087000A658E1 /* Button */,
 				DEE0E5E4241C087000A658E1 /* CheckboxView */,
-				DEE0E5E8241C087000A658E1 /* HeaderTableViewCell */,
+				DEE0E5E8241C087000A658E1 /* TableViewHeader */,
 				DEE0E5E1241C087000A658E1 /* TableCellTextView */,
 				DEE0E5E2241C087000A658E1 /* TitleView */,
 			);
@@ -346,13 +349,13 @@
 			path = ../../AmadaAlert/AmadaAlert/View/Border;
 			sourceTree = "<group>";
 		};
-		DEE0E5E8241C087000A658E1 /* HeaderTableViewCell */ = {
+		DEE0E5E8241C087000A658E1 /* TableViewHeader */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5E9241C087000A658E1 /* HeaderTableViewCell.swift */,
+				DEE0E5F4241C108C00A658E1 /* TableViewHeader.swift */,
 			);
-			name = HeaderTableViewCell;
-			path = ../../AmadaAlert/AmadaAlert/View/HeaderTableViewCell;
+			name = TableViewHeader;
+			path = ../../AmadaAlert/AmadaAlert/View/TableViewHeader;
 			sourceTree = "<group>";
 		};
 		DEE0E5EA241C087000A658E1 /* Button */ = {
@@ -362,6 +365,15 @@
 			);
 			name = Button;
 			path = ../../AmadaAlert/AmadaAlert/View/Button;
+			sourceTree = "<group>";
+		};
+		DEE0E5F6241C10DF00A658E1 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0E5F7241C10E800A658E1 /* TableViewCell.swift */,
+			);
+			name = TableViewCell;
+			path = ../../../.Trash/TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,8 +510,9 @@
 				DE0D39F724197E1700166D95 /* UIViewController+Extension.swift in Sources */,
 				DEE0E5F3241C0AE000A658E1 /* TableCellTextView.swift in Sources */,
 				DEE0E5F1241C087100A658E1 /* Button.swift in Sources */,
-				DEE0E5F0241C087000A658E1 /* HeaderTableViewCell.swift in Sources */,
+				DEE0E5F5241C108C00A658E1 /* TableViewHeader.swift in Sources */,
 				DEE0E5ED241C087000A658E1 /* TitleView.swift in Sources */,
+				DEE0E5F8241C10E800A658E1 /* TableViewCell.swift in Sources */,
 				E18CBC3CD785C83D8306146063B7731A /* ReplaceMe.swift in Sources */,
 				DE0D39F424197E1700166D95 /* UIColor+Extension.swift in Sources */,
 			);
