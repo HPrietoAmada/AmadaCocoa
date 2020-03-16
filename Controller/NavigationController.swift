@@ -8,13 +8,14 @@
 
 import UIKit
 
-class NavigationController: UINavigationController {
+public class NavigationController: UINavigationController {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
+        super.viewDidLoad()
         setup()
     }
 
-    override func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
     }
 
