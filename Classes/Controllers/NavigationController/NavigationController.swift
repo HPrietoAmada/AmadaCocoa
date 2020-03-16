@@ -11,7 +11,6 @@ import UIKit
 public class NavigationController: UINavigationController {
 
     override public func viewDidLoad() {
-        super.viewDidLoad()
         setup()
     }
 

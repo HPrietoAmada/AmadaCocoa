@@ -15,21 +15,25 @@
 		8A13E0F876BEA8210BC47A68B899C0C6 /* AmadaCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 355998A664C7C42DDCE33239AB443A8B /* AmadaCocoa-dummy.m */; };
 		94E9EB3CA54C3DCC253B82E44EF2A1A8 /* Pods-AmadaCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F363E743CAA5491223C2D8BBBC4F0D3 /* Pods-AmadaCocoa_Tests-dummy.m */; };
 		A3D224FA0F0EA725533A6EF444543DF5 /* Pods-AmadaCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407EA511186193ED2374B9408DB78D95 /* Pods-AmadaCocoa_Example-dummy.m */; };
-		DE0D39ED24197DEF00166D95 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39EC24197DEF00166D95 /* NavigationController.swift */; };
-		DE0D39F424197E1700166D95 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39EF24197E1700166D95 /* UIColor+Extension.swift */; };
-		DE0D39F524197E1700166D95 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39F024197E1700166D95 /* Font+Extension.swift */; };
-		DE0D39F624197E1700166D95 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39F124197E1700166D95 /* UIView+Extensions.swift */; };
-		DE0D39F724197E1700166D95 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39F224197E1700166D95 /* UIViewController+Extension.swift */; };
-		DE0D39F824197E1700166D95 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39F324197E1700166D95 /* Date+Extensions.swift */; };
-		DE0D39FB24197E7800166D95 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0D39FA24197E7800166D95 /* DBManager.swift */; };
-		DEE0E5EC241C087000A658E1 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5E0241C087000A658E1 /* BasicTableViewCell.swift */; };
-		DEE0E5ED241C087000A658E1 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5E3241C087000A658E1 /* TitleView.swift */; };
-		DEE0E5EE241C087000A658E1 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5E5241C087000A658E1 /* CheckboxView.swift */; };
-		DEE0E5EF241C087000A658E1 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5E7241C087000A658E1 /* Border.swift */; };
-		DEE0E5F1241C087100A658E1 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5EB241C087000A658E1 /* Button.swift */; };
-		DEE0E5F3241C0AE000A658E1 /* TableCellTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5F2241C0AE000A658E1 /* TableCellTextView.swift */; };
-		DEE0E5F5241C108C00A658E1 /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5F4241C108C00A658E1 /* TableViewHeader.swift */; };
-		DEE0E5F8241C10E800A658E1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE0E5F7241C10E800A658E1 /* TableViewCell.swift */; };
+		DE736C49241FF8A400B1692A /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C44241FF8A300B1692A /* Font+Extension.swift */; };
+		DE736C4A241FF8A400B1692A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C45241FF8A300B1692A /* UIColor+Extension.swift */; };
+		DE736C4B241FF8A400B1692A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C46241FF8A300B1692A /* UIViewController+Extension.swift */; };
+		DE736C4C241FF8A400B1692A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C47241FF8A400B1692A /* Date+Extensions.swift */; };
+		DE736C4D241FF8A400B1692A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C48241FF8A400B1692A /* UIView+Extensions.swift */; };
+		DE736C4F241FF8D200B1692A /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C4E241FF8D200B1692A /* DBManager.swift */; };
+		DE736C56241FF99000B1692A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C52241FF99000B1692A /* NavigationController.swift */; };
+		DE736C57241FF99000B1692A /* SettingsViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C54241FF99000B1692A /* SettingsViewController+TableView.swift */; };
+		DE736C58241FF99000B1692A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C55241FF99000B1692A /* SettingsViewController.swift */; };
+		DE736C68241FF9DF00B1692A /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C5A241FF9DF00B1692A /* SettingsTableViewCell.swift */; };
+		DE736C69241FF9DF00B1692A /* TableCellTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C5C241FF9DF00B1692A /* TableCellTextView.swift */; };
+		DE736C6A241FF9DF00B1692A /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C5E241FF9DF00B1692A /* Border.swift */; };
+		DE736C6B241FF9DF00B1692A /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C60241FF9DF00B1692A /* TitleView.swift */; };
+		DE736C6C241FF9DF00B1692A /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C63241FF9DF00B1692A /* BasicTableViewCell.swift */; };
+		DE736C6D241FF9DF00B1692A /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C65241FF9DF00B1692A /* Button.swift */; };
+		DE736C6E241FF9DF00B1692A /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C67241FF9DF00B1692A /* CheckboxView.swift */; };
+		DE736C74241FFADB00B1692A /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C73241FFADB00B1692A /* TableViewHeader.swift */; };
+		DE736C77241FFB1C00B1692A /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C76241FFB1C00B1692A /* TableView.swift */; };
+		DE736C7A241FFB4A00B1692A /* CloseNavbarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C79241FFB4A00B1692A /* CloseNavbarButtonItem.swift */; };
 		E18CBC3CD785C83D8306146063B7731A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039B6FAFEA33D36819DF7ADC105AACDA /* ReplaceMe.swift */; };
 		F68B5639C3B5371CAA88EA5D80E217DF /* Pods-AmadaCocoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C0D151311ABB4F409A91D5A2F5D895 /* Pods-AmadaCocoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -80,21 +84,25 @@
 		D5D76669007EE65026E4F3081A3389B2 /* AmadaCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmadaCocoa-umbrella.h"; sourceTree = "<group>"; };
 		D7497D32088C3B0D63D3864C516C6969 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0116A48208D724C2CCE00D1012BAC6 /* Pods-AmadaCocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AmadaCocoa_Example.modulemap"; sourceTree = "<group>"; };
-		DE0D39EC24197DEF00166D95 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		DE0D39EF24197E1700166D95 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		DE0D39F024197E1700166D95 /* Font+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
-		DE0D39F124197E1700166D95 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		DE0D39F224197E1700166D95 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		DE0D39F324197E1700166D95 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
-		DE0D39FA24197E7800166D95 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
-		DEE0E5E0241C087000A658E1 /* BasicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
-		DEE0E5E3241C087000A658E1 /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
-		DEE0E5E5241C087000A658E1 /* CheckboxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
-		DEE0E5E7241C087000A658E1 /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
-		DEE0E5EB241C087000A658E1 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		DEE0E5F2241C0AE000A658E1 /* TableCellTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellTextView.swift; sourceTree = "<group>"; };
-		DEE0E5F4241C108C00A658E1 /* TableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
-		DEE0E5F7241C10E800A658E1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DE736C44241FF8A300B1692A /* Font+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		DE736C45241FF8A300B1692A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DE736C46241FF8A300B1692A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		DE736C47241FF8A400B1692A /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		DE736C48241FF8A400B1692A /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DE736C4E241FF8D200B1692A /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		DE736C52241FF99000B1692A /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		DE736C54241FF99000B1692A /* SettingsViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+TableView.swift"; sourceTree = "<group>"; };
+		DE736C55241FF99000B1692A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DE736C5A241FF9DF00B1692A /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		DE736C5C241FF9DF00B1692A /* TableCellTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellTextView.swift; sourceTree = "<group>"; };
+		DE736C5E241FF9DF00B1692A /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
+		DE736C60241FF9DF00B1692A /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		DE736C63241FF9DF00B1692A /* BasicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
+		DE736C65241FF9DF00B1692A /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		DE736C67241FF9DF00B1692A /* CheckboxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		DE736C73241FFADB00B1692A /* TableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		DE736C76241FFB1C00B1692A /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		DE736C79241FFB4A00B1692A /* CloseNavbarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseNavbarButtonItem.swift; sourceTree = "<group>"; };
 		E142226994D1AB951A187A022E16A9F6 /* Pods-AmadaCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmadaCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E167AE9340105E4A18A2985FAE124DA4 /* AmadaCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AmadaCocoa.xcconfig; sourceTree = "<group>"; };
 		EF44197D58BC3F5003A634A5DD5B7355 /* AmadaCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AmadaCocoa-prefix.pch"; sourceTree = "<group>"; };
@@ -135,6 +143,7 @@
 		2F4CB0F83F5D6F987DFE06C07AFD0F94 /* AmadaCocoa */ = {
 			isa = PBXGroup;
 			children = (
+				DE736C09241FF13400B1692A /* Classes */,
 				039B6FAFEA33D36819DF7ADC105AACDA /* ReplaceMe.swift */,
 				6BB118B93D3A570CDC8D6515A491A1C2 /* Pod */,
 				DD9A9F8D7524384281366329E35B487D /* Support Files */,
@@ -156,10 +165,6 @@
 		6BB118B93D3A570CDC8D6515A491A1C2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DE0D39FC24197F2300166D95 /* View */,
-				DE0D39F924197E6200166D95 /* DBManager */,
-				DE0D39EE24197E0600166D95 /* Helpers */,
-				DE0D39EB24197DC900166D95 /* Controller */,
 				88730700301B311226726AB9E27A0A0B /* AmadaCocoa.podspec */,
 				946D87D9BBDC18BB4E4D2067E83F3ADF /* LICENSE */,
 				66864630FBB8FF69DB664E0651510D8C /* README.md */,
@@ -261,119 +266,166 @@
 			path = "Example/Pods/Target Support Files/AmadaCocoa";
 			sourceTree = "<group>";
 		};
-		DE0D39EB24197DC900166D95 /* Controller */ = {
+		DE736C09241FF13400B1692A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DE0D39EC24197DEF00166D95 /* NavigationController.swift */,
+				DE736C50241FF8D600B1692A /* DBManager */,
+				DE736C43241FF82700B1692A /* Helpers */,
+				DE736C42241FF82000B1692A /* Controllers */,
+				DE736C41241FF81A00B1692A /* Models */,
+				DE736C40241FF81100B1692A /* Views */,
 			);
-			path = Controller;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		DE0D39EE24197E0600166D95 /* Helpers */ = {
+		DE736C40241FF81100B1692A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DE0D39F324197E1700166D95 /* Date+Extensions.swift */,
-				DE0D39F024197E1700166D95 /* Font+Extension.swift */,
-				DE0D39EF24197E1700166D95 /* UIColor+Extension.swift */,
-				DE0D39F124197E1700166D95 /* UIView+Extensions.swift */,
-				DE0D39F224197E1700166D95 /* UIViewController+Extension.swift */,
+				DE736C78241FFB4A00B1692A /* CloseNavbarButtonItem */,
+				DE736C75241FFB1C00B1692A /* TableView */,
+				DE736C72241FFADB00B1692A /* TableViewHeader */,
+				DE736C62241FF9DF00B1692A /* BasicTableViewCell */,
+				DE736C5D241FF9DF00B1692A /* Border */,
+				DE736C64241FF9DF00B1692A /* Button */,
+				DE736C66241FF9DF00B1692A /* CheckboxView */,
+				DE736C59241FF9DF00B1692A /* SettingsTableViewCell */,
+				DE736C5B241FF9DF00B1692A /* TableCellTextView */,
+				DE736C5F241FF9DF00B1692A /* TitleView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE736C41241FF81A00B1692A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE736C42241FF82000B1692A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE736C51241FF99000B1692A /* NavigationController */,
+				DE736C53241FF99000B1692A /* SettingsViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE736C43241FF82700B1692A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE736C47241FF8A400B1692A /* Date+Extensions.swift */,
+				DE736C44241FF8A300B1692A /* Font+Extension.swift */,
+				DE736C45241FF8A300B1692A /* UIColor+Extension.swift */,
+				DE736C48241FF8A400B1692A /* UIView+Extensions.swift */,
+				DE736C46241FF8A300B1692A /* UIViewController+Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		DE0D39F924197E6200166D95 /* DBManager */ = {
+		DE736C50241FF8D600B1692A /* DBManager */ = {
 			isa = PBXGroup;
 			children = (
-				DE0D39FA24197E7800166D95 /* DBManager.swift */,
+				DE736C4E241FF8D200B1692A /* DBManager.swift */,
 			);
 			path = DBManager;
 			sourceTree = "<group>";
 		};
-		DE0D39FC24197F2300166D95 /* View */ = {
+		DE736C51241FF99000B1692A /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5F6241C10DF00A658E1 /* TableViewCell */,
-				DEE0E5DF241C087000A658E1 /* BasicTableViewCell */,
-				DEE0E5E6241C087000A658E1 /* Border */,
-				DEE0E5EA241C087000A658E1 /* Button */,
-				DEE0E5E4241C087000A658E1 /* CheckboxView */,
-				DEE0E5E8241C087000A658E1 /* TableViewHeader */,
-				DEE0E5E1241C087000A658E1 /* TableCellTextView */,
-				DEE0E5E2241C087000A658E1 /* TitleView */,
+				DE736C52241FF99000B1692A /* NavigationController.swift */,
 			);
-			path = View;
+			path = NavigationController;
 			sourceTree = "<group>";
 		};
-		DEE0E5DF241C087000A658E1 /* BasicTableViewCell */ = {
+		DE736C53241FF99000B1692A /* SettingsViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5E0241C087000A658E1 /* BasicTableViewCell.swift */,
+				DE736C54241FF99000B1692A /* SettingsViewController+TableView.swift */,
+				DE736C55241FF99000B1692A /* SettingsViewController.swift */,
 			);
-			name = BasicTableViewCell;
-			path = ../../AmadaAlert/AmadaAlert/View/BasicTableViewCell;
+			path = SettingsViewController;
 			sourceTree = "<group>";
 		};
-		DEE0E5E1241C087000A658E1 /* TableCellTextView */ = {
+		DE736C59241FF9DF00B1692A /* SettingsTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5F2241C0AE000A658E1 /* TableCellTextView.swift */,
+				DE736C5A241FF9DF00B1692A /* SettingsTableViewCell.swift */,
 			);
-			name = TableCellTextView;
-			path = ../../AmadaAlert/AmadaAlert/View/TableCellTextView;
+			path = SettingsTableViewCell;
 			sourceTree = "<group>";
 		};
-		DEE0E5E2241C087000A658E1 /* TitleView */ = {
+		DE736C5B241FF9DF00B1692A /* TableCellTextView */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5E3241C087000A658E1 /* TitleView.swift */,
+				DE736C5C241FF9DF00B1692A /* TableCellTextView.swift */,
 			);
-			name = TitleView;
-			path = ../../AmadaAlert/AmadaAlert/View/TitleView;
+			path = TableCellTextView;
 			sourceTree = "<group>";
 		};
-		DEE0E5E4241C087000A658E1 /* CheckboxView */ = {
+		DE736C5D241FF9DF00B1692A /* Border */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5E5241C087000A658E1 /* CheckboxView.swift */,
+				DE736C5E241FF9DF00B1692A /* Border.swift */,
 			);
-			name = CheckboxView;
-			path = ../../AmadaAlert/AmadaAlert/View/CheckboxView;
+			path = Border;
 			sourceTree = "<group>";
 		};
-		DEE0E5E6241C087000A658E1 /* Border */ = {
+		DE736C5F241FF9DF00B1692A /* TitleView */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5E7241C087000A658E1 /* Border.swift */,
+				DE736C60241FF9DF00B1692A /* TitleView.swift */,
 			);
-			name = Border;
-			path = ../../AmadaAlert/AmadaAlert/View/Border;
+			path = TitleView;
 			sourceTree = "<group>";
 		};
-		DEE0E5E8241C087000A658E1 /* TableViewHeader */ = {
+		DE736C62241FF9DF00B1692A /* BasicTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5F4241C108C00A658E1 /* TableViewHeader.swift */,
+				DE736C63241FF9DF00B1692A /* BasicTableViewCell.swift */,
 			);
-			name = TableViewHeader;
-			path = ../../AmadaAlert/AmadaAlert/View/TableViewHeader;
+			path = BasicTableViewCell;
 			sourceTree = "<group>";
 		};
-		DEE0E5EA241C087000A658E1 /* Button */ = {
+		DE736C64241FF9DF00B1692A /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5EB241C087000A658E1 /* Button.swift */,
+				DE736C65241FF9DF00B1692A /* Button.swift */,
 			);
-			name = Button;
-			path = ../../AmadaAlert/AmadaAlert/View/Button;
+			path = Button;
 			sourceTree = "<group>";
 		};
-		DEE0E5F6241C10DF00A658E1 /* TableViewCell */ = {
+		DE736C66241FF9DF00B1692A /* CheckboxView */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0E5F7241C10E800A658E1 /* TableViewCell.swift */,
+				DE736C67241FF9DF00B1692A /* CheckboxView.swift */,
 			);
-			name = TableViewCell;
-			path = ../../../.Trash/TableViewCell;
+			path = CheckboxView;
+			sourceTree = "<group>";
+		};
+		DE736C72241FFADB00B1692A /* TableViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				DE736C73241FFADB00B1692A /* TableViewHeader.swift */,
+			);
+			path = TableViewHeader;
+			sourceTree = "<group>";
+		};
+		DE736C75241FFB1C00B1692A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DE736C76241FFB1C00B1692A /* TableView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DE736C78241FFB4A00B1692A /* CloseNavbarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				DE736C79241FFB4A00B1692A /* CloseNavbarButtonItem.swift */,
+			);
+			path = CloseNavbarButtonItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,23 +550,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE0D39F624197E1700166D95 /* UIView+Extensions.swift in Sources */,
-				DEE0E5EF241C087000A658E1 /* Border.swift in Sources */,
-				DE0D39F824197E1700166D95 /* Date+Extensions.swift in Sources */,
+				DE736C4D241FF8A400B1692A /* UIView+Extensions.swift in Sources */,
+				DE736C77241FFB1C00B1692A /* TableView.swift in Sources */,
+				DE736C6A241FF9DF00B1692A /* Border.swift in Sources */,
 				8A13E0F876BEA8210BC47A68B899C0C6 /* AmadaCocoa-dummy.m in Sources */,
-				DEE0E5EE241C087000A658E1 /* CheckboxView.swift in Sources */,
-				DE0D39F524197E1700166D95 /* Font+Extension.swift in Sources */,
-				DEE0E5EC241C087000A658E1 /* BasicTableViewCell.swift in Sources */,
-				DE0D39FB24197E7800166D95 /* DBManager.swift in Sources */,
-				DE0D39ED24197DEF00166D95 /* NavigationController.swift in Sources */,
-				DE0D39F724197E1700166D95 /* UIViewController+Extension.swift in Sources */,
-				DEE0E5F3241C0AE000A658E1 /* TableCellTextView.swift in Sources */,
-				DEE0E5F1241C087100A658E1 /* Button.swift in Sources */,
-				DEE0E5F5241C108C00A658E1 /* TableViewHeader.swift in Sources */,
-				DEE0E5ED241C087000A658E1 /* TitleView.swift in Sources */,
-				DEE0E5F8241C10E800A658E1 /* TableViewCell.swift in Sources */,
+				DE736C68241FF9DF00B1692A /* SettingsTableViewCell.swift in Sources */,
+				DE736C58241FF99000B1692A /* SettingsViewController.swift in Sources */,
 				E18CBC3CD785C83D8306146063B7731A /* ReplaceMe.swift in Sources */,
-				DE0D39F424197E1700166D95 /* UIColor+Extension.swift in Sources */,
+				DE736C57241FF99000B1692A /* SettingsViewController+TableView.swift in Sources */,
+				DE736C4F241FF8D200B1692A /* DBManager.swift in Sources */,
+				DE736C6C241FF9DF00B1692A /* BasicTableViewCell.swift in Sources */,
+				DE736C6E241FF9DF00B1692A /* CheckboxView.swift in Sources */,
+				DE736C56241FF99000B1692A /* NavigationController.swift in Sources */,
+				DE736C69241FF9DF00B1692A /* TableCellTextView.swift in Sources */,
+				DE736C49241FF8A400B1692A /* Font+Extension.swift in Sources */,
+				DE736C7A241FFB4A00B1692A /* CloseNavbarButtonItem.swift in Sources */,
+				DE736C4B241FF8A400B1692A /* UIViewController+Extension.swift in Sources */,
+				DE736C4A241FF8A400B1692A /* UIColor+Extension.swift in Sources */,
+				DE736C4C241FF8A400B1692A /* Date+Extensions.swift in Sources */,
+				DE736C74241FFADB00B1692A /* TableViewHeader.swift in Sources */,
+				DE736C6B241FF9DF00B1692A /* TitleView.swift in Sources */,
+				DE736C6D241FF9DF00B1692A /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

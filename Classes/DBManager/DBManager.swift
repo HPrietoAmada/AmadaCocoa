@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct PostResponseModel: Codable {
+struct PostResponseModel: Codable {
     public var fieldCount: Int?
     public var affectedRows: Int?
     public var insertId: Int?
@@ -22,6 +22,6 @@ public struct PostResponseModel: Codable {
 typealias NewIdReturned = (PostResponseModel?, Error?) -> Void
 typealias NewIdsReturned = ([PostResponseModel], Error?) -> Void
 
-public struct DBManager {
+struct DBManager {
     static let shared = DBManager()
 }
