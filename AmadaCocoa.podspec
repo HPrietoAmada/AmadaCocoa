@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AmadaCocoa'
-  s.version          = '0.1.02'
+  s.version          = '0.1.03'
   s.summary          = 'Contains Model, View, Controllers and Helpers to be utitlized by all amada components'
 
 # This description is used to generate tags and improve search results.
